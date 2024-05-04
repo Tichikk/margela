@@ -1,0 +1,516 @@
+@font-face {
+    font-family: 'bignoodletitling';
+    src: url('../font/bignoodletitling.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.topheader {
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 100px;
+
+}
+
+body {
+    font-family: 'bignoodletitling';
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 300;
+    background-color: white;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    bottom: auto;
+}
+
+.logo>a>img {
+    margin-top: -10px;
+    padding-right: 5px;
+    height: 60px;
+}
+
+.logo>a {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    /* background-color: #696969; */
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: initial;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: #696969;
+}
+
+.banner {
+    background: url(../images/slider.jpg) #696969;
+    background-blend-mode: hard-light,normal;
+    display: flex;
+    color: white;
+    align-items: center;
+    min-height: 650px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.banner h2 {
+    font-size: 3rem;
+}
+
+.banner p {
+    font-size: 2rem;
+}
+
+.scrolldown {
+    position: absolute;
+    left: calc(50%-52px);
+    margin-top: 15%;
+}
+
+.scrolldown img {
+    margin-bottom: 20px;
+}
+
+.scrolldown p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 38px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.head_white_content{
+    padding: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+.head_white_content p{
+    padding: 20px 90px 0px;
+    color: black;
+}
+
+.head_white_content span{
+    content: "";
+    display: inline-block;
+    width: 150px;
+    height: 5px;
+    background:black
+}
+
+.aboutus{
+    margin-bottom: 90px;
+}
+
+.adventage{
+    text-align: center;
+    width: 100%;
+    background: #c8c8c8;
+    padding: 30px;
+    margin: 3% 0;
+}
+
+.adventage span{
+    font-size: 60px;
+    color: #1eb4f4;
+}
+
+.adventage h4{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.25px;
+    color: #4a4a4a;
+    padding: 25px 0 13px;
+}
+
+.adventage p{
+    color: #4a4a4a;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.somefutures, .price {
+    background-color: #000;
+    text-align: center;
+    color: #f6f6f6;
+    padding: 60px 0;
+    display: block;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.head_black_content {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.head_black_content span {
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    margin-top: 15px auto 0;
+    margin-bottom: 15px;
+    background: #1eb4f4;
+}
+
+.numeral>div>span {
+    font-size: 60px;
+    color: #1eb4f4;
+}
+
+.numeral>div>p {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.numeral>div>h5 {
+    font-size: 33px;
+    padding-top: 30px;
+}
+
+.adventage2{
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    margin: 3% 0;
+}
+
+.adventage2 span{
+    font-size: 60px;
+    color: #1eb4f4;
+}
+
+.adventage2 h4{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.25px;
+    color: #4a4a4a;
+    padding: 25px 0 13px;
+}
+
+.adventage2 p{
+    color: #4a4a4a;
+    font-size: 18px;
+    line-height: 100%;
+}
+.head_black_content p{
+    top: 50px
+}
+
+.price-content-head {
+    background: #0e1316;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 40px 0 30px;
+    min-height: 225px;
+}
+
+.price-content-head h4{
+    padding-top: 6px;
+    font-size: 24px;
+}
+
+.price-content-head p {
+    margin-top: 25px;
+    padding: 0 25px;
+    font-size: 14px;
+}
+
+.price-content-body {
+    background: #1f282c;
+    padding: 45px 0 40px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-weight: 300;
+}
+
+.price-content-body p{
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+.price-content-body p span{
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 2px;
+}
+
+.price-content-body a{
+    background: #1eb4f4;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 10px 30px
+}
+
+.price-content:hover{
+    border: 1px solid #1eb4f4
+}
+
+.price-content:hover .price-content-body>p>span{
+    color: #1eb4f4;
+}
+
+.price-content{
+    margin: 5% 0;
+    width: 110%;
+}
+
+.getintouch{
+    padding: 80px 0;
+}
+
+.textinput{
+    margin: 40px 0;
+}
+
+.textinput p, .textmsg p{
+    font-weight: 700;
+    color: #696969;
+    margin-bottom: 5px;
+}
+
+.textinput p span, .textmsg p span{
+    color: #1eb4f4;
+    margin-left: 5px;
+}
+
+.textinput input{
+    border: 0;
+    border-bottom: 1px solid #cacaca;
+    width: 90px;
+    height: 40px;
+    outline: 0;
+}
+
+.textmsg textarea{
+    border: 0;
+    border-bottom: 1px solid #cacaca;
+    width: 95%;
+    height: 80px;
+    outline: 0;
+    padding-top: 10px;
+}
+
+.getintouch form{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.submit{
+    width: 205px;
+    height: 50px;
+    letter-spacing: 1px;
+    background: #1eb4f4;
+    border: 1px solid #1eb4f4;
+    color: block;
+    margin: 50px auto 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.submit:hover{
+    color: #1eb4f4;
+    transition: 0.5s;
+    background: white;
+}
+
+.sinner1 {
+    padding: 9% 5%;
+    text-align: center;
+    background: #ebebeb;
+    min-height: 350px;
+}
+
+.sinner1 img {
+    margin: 0 auto;
+}
+
+.sinner1 a img {
+    display: inherit;
+    width: 20%;
+}
+
+.sinner1 h4 {
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.sinner2 {
+    padding: 9% 5%;
+    text-align: left;
+    background: #ebebeb;
+    min-height: 350px;
+}
+
+.sinner2 img {
+    margin: 0 auto;
+}
+
+.sinner2 a img {
+    display: inherit;
+    width: 20%;
+}
+
+.sinner2 h4 {
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.team {
+    padding-bottom: 130px;
+}
+
+.team .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    left: -34%;
+}
+
+.map span {
+    margin-left: 10px;
+    font-weight: 700;
+    color: #1eb4f4;
+    font-size: 24px;
+}
+
+.accordion-open span::before{
+    font-family: 'Linearicons-Free';
+    content: "\e873";
+}
+
+.accordion-close span::after{
+    font-family: 'Linearicons-Free';
+    content: "\e874";
+}
+
+.accordion{
+    text-align: center;
+    background: #000;
+}
+
+footer{
+    text-align: center;
+}
+
+footer img{
+    font-size: 80px;
+}
+
+footer h4{
+    font-size: 50px;
+}
+
+footer p{
+    font-size: 30px;
+    top: 10px;
+}
+
+#filters {
+    margin: 1% auto;
+    width: 100%;
+    text-align: center;
+}
+
+#filters li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.filter{
+    display: block;
+    color: #3d3d3d;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.filter.active{
+    font-weight: 700;
+    color: #3d3d3d;
+    border-bottom: 1px solid #1eb4f4; 
+}
+
+#portfoliolist .portfolio{
+    border: none !important;
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    display: none;
+}
+
+.portfolio-wrapper{
+    overflow: hidden;
+    position: relative !important;
+    cursor: pointer;
+}
+
+.portfolio img{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.imgDisc2{
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    padding-top: 120px;
+    cursor: pointer;
+    transition: 0.5s;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.imgDisc h1{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.portfolio-wrapper:hover .imgDisc{
+    visibility: visible;
+    opacity: 1;
+}
+
+.topheader.is-fixed{
+    height: 80;
+}
+
+.topheader.is-fixed a{
+    margin-top: 0px;
+}
+
+.textinput input:focus, .textmsg textarea:focus{
+    box-shadow: 0px 1px 30px 40px rgba(246, 116, 75, 0.5);
+}
